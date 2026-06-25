@@ -21,7 +21,7 @@ Category: utility.
 # Why HACD (do not break this framing)
 This product issues a HACD Stack Asset: it is FORMED, not merely deployed —
 HACD is the PoW container, HAC pays the stack cost, and Stack is the formation
-action that writes durable on-chain state. A regular L2 token could be minted arbitrarily by a central team; BRIXS tokens are formed via HACD to guarantee fair, verifiable initial distribution. Treat each formed HACD as a "formation record" whose formation time cannot be backdated. Never imply stack cost guarantees a price, and never call HACD "just an NFT".
+action that writes durable on-chain state. A regular L2 token could be minted arbitrarily by a central team; BRIXS tokens are formed via HACD to guarantee fair, verifiable initial distribution. Treat each formed HACD as a "formation record" whose formation time cannot be backdated. Never imply stack cost guarantees a price, and never call HACD "merely an NFT".
 
 # Scope for the sprint
 In scope:
@@ -65,7 +65,7 @@ Dark, editorial, "terminal-confident" aesthetic:
 - [ ] Formation proof is visible to a second viewer (the reviewer's POV).
 - [ ] The why-HACD value is obvious from the UI without explanation.
 - [ ] Mocked vs. live formation status is labeled honestly.
-- [ ] No price-floor, yield, guaranteed-return, or "just an NFT" language.
+- [ ] No price-floor, yield, guaranteed-return, or "merely an NFT" language.
 - [ ] The app runs with no console errors and matches the visual system.
 
 Use mock/local data so the app runs immediately. Keep the code clean and the README short.
