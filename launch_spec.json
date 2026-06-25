@@ -1,0 +1,53 @@
+{
+  "schema_version": "0.1.0",
+  "project": {
+    "name": "Brixs Chain",
+    "ticker": "BRIXS",
+    "category": "utility",
+    "description": "Brixs Chain is a Unified Liquidity L2/L3 tailored for Emerging Markets, using HACD Stack for initial network bootstrapping and community alignment.",
+    "website": "https://github.com/brixs-chain",
+    "x": "@brixs_chain",
+    "contact": "apna_coding_community"
+  },
+  "asset": {
+    "type": "FT",
+    "total_supply": 1000000000,
+    "decimals": 0,
+    "unit_name": "BRIXS",
+    "utility_summary": "BRIXS serves as the core utility token for the Brixs Chain L2 rollup. Holders can pay transaction fees on the testnet L2 (gasless via paymasters). Future plans include mainnet deployment and MEV protection rewards."
+  },
+  "stack": {
+    "total_hacd_lots": 1000,
+    "hacd_per_lot": 1,
+    "units_per_hacd_lot": 1000000,
+    "stack_cost_hac_per_hacd": 50.0,
+    "network_fee_required": true,
+    "designated_address_required": false,
+    "designated_address": "",
+    "first_phase_hacd_lots": 0,
+    "public_phase_hacd_lots": 1000,
+    "removal_effect": "burn"
+  },
+  "launch": {
+    "target_date_utc": "2026-08-01T12:00:00Z",
+    "launchpad_url": "",
+    "phase_model": "public",
+    "min_hacd_per_participant": 1,
+    "max_hacd_per_participant": 10,
+    "status": "draft"
+  },
+  "copy": {
+    "headline": "The L2 for the next billion users, bootstrapped by HACD.",
+    "subheadline": "Brixs Chain issues BRIXS \u2014 a utility Stack Asset supporting a unified liquidity L2 with sub-cent fees.",
+    "short_description": "BRIXS is formed across 1,000 HACD lots at a reference cost of 50 HAC each. Total supply is 1,000,000,000 BRIXS. No hidden allocation. Formed entirely on-chain.",
+    "risk_disclosure": "BRIXS is a utility Stack Asset for network participation, not an investment product. Not financial advice. No price, liquidity, or return is guaranteed. Mainnet utility depends on continued development. Formation cost is non-refundable. This is a draft structure."
+  },
+  "review": {
+    "issuer_confirmed": true,
+    "hacd_labs_reviewed": true,
+    "legal_review_required": true,
+    "notes": [
+      "Generated for Brixs Chain based on L2 architecture documentation."
+    ]
+  }
+}
